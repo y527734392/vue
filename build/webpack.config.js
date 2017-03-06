@@ -37,6 +37,14 @@ module.exports = {
                 loader: 'vue'
             },
             {
+                test: /\.css$/,
+                loaders: ['style', 'css', 'autoprefixer']
+            },
+            {
+                test: /\.less/,
+                loaders: ['style', 'css', 'autoprefixer', 'less'],
+            },
+            {
                 test: /\.js$/,
                 loader: 'babel',
                 query: {presets: ['es2015']},

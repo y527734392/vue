@@ -40,7 +40,7 @@ compiler.plugin('compilation', function (compilation) {
     })
 });
 
-var uri = 'http://yt.com:' + port
+var uri = 'http://yt.com:' + port;
 
 
 //监听8889端口,开启服务器

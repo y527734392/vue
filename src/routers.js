@@ -6,7 +6,7 @@
  * component : 路由的组件路径
  */
 const routers = [{
-    path: '/index',
+    path: '/',
     name: 'index',
     component(resolve) {
         require.ensure(['./index.vue'], () => {
